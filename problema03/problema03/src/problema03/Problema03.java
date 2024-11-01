@@ -31,7 +31,7 @@ public class Problema03 {
         
         total_cancelar = costomin * minutos;
         
-        System.out.printf("Reporte : \nNombres completos: %s\n\t"
+        System.out.printf("Reporte: \nNombres completos: %s\n\t"
                 + "Direccion : %s\nCosto por minutos: $%.2f\n\t"
                 + "Numero de minutos consumidos: %.2f\n\t\t"
                 + "Valor a cancelar: $%.2f",

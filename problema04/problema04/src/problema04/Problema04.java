@@ -34,6 +34,15 @@ public class Problema04 {
         
         total = cpu + teclado + raton + pantalla;
         
+        System.out.printf("Reporte: \nNombres de cliente: %s\n"
+        + "Valores iniciales: \nCPU:  $ %.2f\nTeclado: $ %.2f\n"
+        + "Ratón: $ %.2f\nPantalla: $ %.2f\n\nValor a cancelar: $%.2f",
+                nombre,
+                cpu,
+                teclado,
+                raton,
+                pantalla,
+                total); 
                 
     }
     
